@@ -1,8 +1,14 @@
 aid: nave-bank
 name: Nave Bank
-description: 'Nave Bank is a company surfaced as a portfolio company of ribbit-capital and added to the
-  API Evangelist network as a stub for enrichment. Sector: fintech. This profile is a lead awaiting the
-  enrichment pipeline.'
+description: 'Nave Bank is a digital-first business bank based in Puerto Rico, offering
+  FDIC-insured deposit accounts, business savings, and business loans through an easy-to-navigate
+  online and mobile banking platform. Its product surface centers on business checking
+  ("Cuenta Nave Business"), interest-bearing savings, real-time payments, ACH and wire
+  transfers, and mobile check deposit, with a bilingual (Spanish/English) experience and
+  human customer support. Nave was surfaced as a portfolio company of Ribbit Capital and
+  added to the API Evangelist network. As of this enrichment pass Nave Bank publishes a
+  consumer/business banking website and help center but no public developer API, developer
+  portal, or API documentation.'
 url: https://raw.githubusercontent.com/api-evangelist/nave-bank/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,15 +16,58 @@ x-backed-by:
 - ribbit-capital
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
 - Fintech
+- Banking
+- Digital Bank
+- Business Banking
+- Puerto Rico
+- Deposits
+- Loans
+- Payments
+image: https://www.navebank.com/images/nave-og-image.png
 apis: []
+common:
+- type: Website
+  url: https://www.navebank.com/
+- type: Support
+  name: Help Center
+  url: https://www.navebank.com/en/help-center
+- type: Blog
+  name: Press & News
+  url: https://www.navebank.com/en/press
+- type: SignUp
+  name: Join Nave
+  url: https://www.navebank.com/en/join-us
+- type: TermsOfService
+  url: https://www.navebank.com/en/legal/terms-of-use
+- type: PrivacyPolicy
+  url: https://www.navebank.com/en/legal/privacy-policy
+- type: DomainSecurity
+  name: Domain security posture (probed)
+  url: security/nave-bank-domain-security.yml
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
